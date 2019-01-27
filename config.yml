@@ -1,0 +1,24 @@
+#db
+database_host: mongodb://localhost:27017
+database_port:
+database_name: circles
+mgo_timeout: 60
+mgo_pool_size: 5
+
+#logging
+log_level: info
+log_file: log/sample.log
+log_rotation: true
+log_format_json: true
+
+#redis
+redis_master: mymaster
+redis_sentinels: 127.0.0.1:26379
+redis_db: 9
+redis_password: ""
+redis_pool_size: 2
+
+#newrelic
+new_relic:
+  app_name: SAMPLE_APP
+  license_key: ""
